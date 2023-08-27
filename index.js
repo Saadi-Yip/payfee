@@ -13,9 +13,6 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use("/", routes);
 
-app.get("/", (req, res) => {
-  res.send("Welcome to pay fee");
-});
 
 // Connect to the database
 const startServer = async () => {
