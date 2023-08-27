@@ -5,8 +5,8 @@ const userController = require("../controllers/userController");
 // const { Protect } = require("../utils/Protect");
 // const { RestrictTo } = require("../utils/Restrict");
 router.get("/", (req, res) => {
-    res.send("Welcome to pay fee");
-  });
+  res.send("Welcome to pay fee");
+});
 router.post("/verify-phone", userController.verifyphone); //add phone number
 router.get("/users", userController.getAllUsers); // get all users
 router.post("/signup", userController.createUser); //signup

@@ -4,7 +4,7 @@ const routes = require("./routes/routes");
 const dotenv = require("dotenv");
 const sequelize = require("./db");
 
-//load env vars
+ 
 dotenv.config({ path: "./config/config.env" });
 
 /************** Middlewares ****************/
