@@ -4,11 +4,9 @@ const app = express();
   
 
 const sequelize = new Sequelize('payfee', 'admin', 'payfree390', {
-  host: 'payfree.c8mhl3xokyfq.us-east-1.rds.amazonaws.com',
+  host: 'payfee.c8mhl3xokyfq.us-east-1.rds.amazonaws.com',
   dialect: "mysql",
-  dialectOptions: {
-    connectTimeout: 600000, // Set the timeout value in milliseconds
-  },
+   
 });
 
 // Test the database connection
